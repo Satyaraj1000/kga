@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
+@layer base {
   @font-face {
-    src: url(/fonts/Roboto.woff2) format("woff2");
+    src: url(public/Cardo-Bold.ttf) format("ttf");
   }
-} */
+}
