@@ -13,8 +13,8 @@ const Footer = () => {
                 width={50}
                 height={50}
               />
-              <span className="ml-4 text-lg lg:text-2xl font-bold">
-                KAPOL GLOBAL ACADEMY
+              <span className="ml-4 text-lg lg:text-2xl font-bold text-sky-950">
+                KAPOL GLOBAL ACADEMY (IGCSE)
               </span>
             </div>
           </div>

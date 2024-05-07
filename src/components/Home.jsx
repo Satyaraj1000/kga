@@ -41,7 +41,7 @@ const Home = () => {
               <h1>KAPOL GLOBAL ACADEMY (IGCSE)</h1>
             </div>
           </div>
-          <div className="w-full h-full flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-2 lg:space-x-4">
+          <div className="w-full h-full flex flex-col lg:flex-row items-center space-y-5 md:space-y-0 md:space-x-2 lg:space-x-4">
             <div className="w-full h-1/2 lg:h-full lg:w-1/2 text-3xl ">
               <div className="grid-flow-col space-y-2 md:space-y-4">
                 <div className="flex space-x-2 font-bold text-xl md:text-2xl xl:text-4xl">
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="w-full h-1/2 lg:h-full lg:w-1/2">
               <div className="w-full h-full grid grid-cols-2 grid-rows-2 space-y-2 overflow-hidden bg-black">
                 <div className="space-x-2 col-span-2 row-span-1 flex">
-                  <img className="w-1/2" src="src/assets/KGA-1.jpg" />
+                  <img className="w-1/2 h-auto" src="src/assets/cr-2.jpg" />
                   <img className="w-1/2" src="src/assets/KGA-2.jpg" />
                 </div>
                 <div className="space-x-2 col-span-2 row-span-1 flex">
@@ -94,7 +94,7 @@ const Home = () => {
 
         {/* Thrid Page */}
         <div className="mt-10">
-          <div className="w-full h-full flex flex-col md:flex-row-reverse items-center space-y-4 md:space-y-0 md:space-x-2 lg:space-x-4">
+          <div className="w-full h-full flex flex-col lg:flex-row-reverse items-center p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-2 lg:space-x-4">
             <div className="w-full h-1/2 lg:h-full lg:w-1/2 text-3xl">
               <div className="grid-flow-col space-y-2 md:space-y-4 md:p-6">
                 <div className="space-x-2 font-bold text-xl md:text-2xl xl:text-4xl">
@@ -107,7 +107,7 @@ const Home = () => {
                 <div className="text-sm md:text-lg">
                   <p>
                     Our learning spaces are designed to bring the best of the IGCSE curriculum
-                    to your child. We emphasize on hands-on activities, creativity, and problemsolving skills as essential parts of everyday lessons. Basic academic concepts
+                    to your child. We emphasize on hands-on activities, creativity, and problem solving skills as essential parts of everyday lessons. Basic academic concepts
                     are introduced through storytelling, painting, crafts, dance, music, and
                     sports, helping children understand each concept - not memorize it.
                     Our approach goes beyond traditional education. It prepares students for
@@ -133,7 +133,7 @@ const Home = () => {
               </div>
             </div>
             <div className="w-full h-1/2 lg:h-full lg:w-1/2">
-              <img src="src/assets/KGA-1.jpg" />
+              <img className="flex w-full object-fill" src="src/assets/KGA-1.jpg" />
             </div>
           </div>
         </div>

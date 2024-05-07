@@ -34,6 +34,14 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
+                  to="/academics"
+                  className="text-lg font-semibold text-gray-800 transform transition-all delay-100 hover:text-pink"
+                >
+                  Academics
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/aboutus"
                   className="text-lg font-semibold text-gray-800 transform transition-all delay-100 hover:text-pink"
                 >
@@ -46,14 +54,6 @@ const Header = () => {
                   className="text-lg font-semibold text-gray-800 transform transition-all delay-100 hover:text-pink"
                 >
                   Contact Us
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/academics"
-                  className="text-lg font-semibold text-gray-800 transform transition-all delay-100 hover:text-pink"
-                >
-                  Academics
                 </NavLink>
               </li>
             </ul>
@@ -71,7 +71,7 @@ const Header = () => {
                       <span>
                         <img src="src/assets/logo.png" alt="" width={40}/>
                       </span>
-                      <span className="font-bold md:text-xl space-x-1 md:flex">KAPOL GLOBAL ACADEMY <p className="font-medium">(IGCSE)</p></span>
+                      <span className="font-bold md:text-xl text-sky-900 space-x-1 md:flex">KAPOL GLOBAL ACADEMY <p className="font-medium">(IGCSE)</p></span>
                     </div>
                   </div>
                   <div className="mt-6">
@@ -83,6 +83,15 @@ const Header = () => {
                       >
                         <span className="ml-3 text-base font-medium text-gray-900">
                           Home
+                        </span>
+                      </NavLink>
+                      <NavLink
+                        onClick={toggleMenu}
+                        to="/academics"
+                        className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
+                      >
+                        <span className="ml-3 text-base font-medium text-gray-900">
+                          Academics
                         </span>
                       </NavLink>
                       <NavLink
@@ -101,15 +110,6 @@ const Header = () => {
                       >
                         <span className="ml-3 text-base font-medium text-gray-900">
                           ContactUs
-                        </span>
-                      </NavLink>
-                      <NavLink
-                        onClick={toggleMenu}
-                        to="/academics"
-                        className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
-                      >
-                        <span className="ml-3 text-base font-medium text-gray-900">
-                          Academics
                         </span>
                       </NavLink>
                     </nav>
