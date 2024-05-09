@@ -3,9 +3,9 @@ import React from 'react'
 const HomePage3 = () => {
     return (
         <div>
-            <div className="mt-10">
+            <div className="">
                 <div className="w-full h-full flex flex-col lg:flex-row-reverse items-center p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-2 lg:space-x-4">
-                    <div className="w-full h-1/2 lg:h-full lg:w-1/2 text-3xl">
+                    <div className="w-full h-1/2 lg:h-full lg:w-1/3 text-3xl font-bold">
                         <div className="grid-flow-col space-y-2 md:space-y-4 md:p-6">
                             <div className="space-x-2 font-bold text-xl md:text-2xl xl:text-4xl">
                                 <h1>UNLOCK THE POWER OF A</h1>
