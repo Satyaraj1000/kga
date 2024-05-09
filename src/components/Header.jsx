@@ -15,12 +15,12 @@ const Header = () => {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
           <div className="inline-flex items-center space-x-2">
             <img src="src/assets/logo.png" alt="logo" width={40} height={40} />
-            <span className="space-x-3 font-bold text-sky-900 lg:text-3xl md:flex items-center font-[Cardo-Bold]">
+            {/* <span className="space-x-3 font-bold text-sky-900 lg:text-3xl md:flex items-center font-[Cardo-Bold]">
               KAPOL GLOBAL ACADEMY
               <p className="font-medium text-sm md:text-md lg:text-lg">
                 (IGCSE)
               </p>
-            </span>
+            </span> */}
           </div>
           <div className="hidden lg:block">
             <ul className="inline-flex space-x-8">
