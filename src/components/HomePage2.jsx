@@ -23,7 +23,7 @@ const HomePage2 = () => {
       t1.from("#popup",{
         x:-100,
         opacity:0,
-        duration:2,
+        duration:3,
         stagger:0.5,
         scrollTrigger:{
             trigger:"#popup",
@@ -33,7 +33,12 @@ const HomePage2 = () => {
       t1.from("#imagescaling",{
         scale:2,
         opacity:0,
-        stagger:0.7
+        duration:3,
+        stagger:0.7,
+        scrollTrigger:{
+          trigger:"#imagescaling",
+          start:"top 50%",
+        }
       })
     },
     { scope: page2 }
