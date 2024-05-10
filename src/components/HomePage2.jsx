@@ -11,15 +11,14 @@ const HomePage2 = () => {
     () => {
       var t1 = gsap.timeline();
       t1.from("#anime", {
-        scrollTrigger: {
-          trigger: '#anime',
-          start: 'top 75%',
-          end: 'bottom 25%',
-          scrub: true,
-        },
         x: -100,
         opacity: 0,
+        duration:2,
         stagger: 1,
+        scrollTrigger: {
+          trigger: '#anime',
+          start: 'top 50%',
+        },
       });
       t1.from("#popup",{
         x:-100,
@@ -28,7 +27,7 @@ const HomePage2 = () => {
         stagger:0.5,
         scrollTrigger:{
             trigger:"#popup",
-            start:"top top"
+            start:"top center"
         }
       })
       t1.from("#imagescaling",{
